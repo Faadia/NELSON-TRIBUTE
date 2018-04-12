@@ -1,0 +1,98 @@
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 400px) {
+  header img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .content {
+    width: 75%;
+    margin-top: 5px;
+  }
+
+  .timeline {
+    margin-top: 5px;
+  }
+}
+
+@media screen
+  and (min-device-width: 400px)
+  and (max-device-width: 500px) {
+    .content {
+      width: 44%;
+      margin-top: 4px;
+    }
+
+    header img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+
+@media screen
+  and (min-device-width: 501px)
+  and (max-device-width: 570px) {
+    .content {
+      width: 45%;
+      margin: 4px;
+    }
+
+    header img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+}
+
+@media screen
+  and (min-device-width: 567px) {
+    .content {
+      width: 43%;
+      margin-top: 4px;
+    }
+  }
+
+@media screen
+  and (min-device-width: 596px) {
+    .content {
+      width: 42%;
+      margin-top: 4px;
+    }
+  }
+
+@media screen
+  and (min-device-width: 615px) {
+    .content {
+      width: 41%;
+      margin-top: 4px;
+    }
+  }
+
+@media screen
+  and (min-device-width: 625px) {
+    .content {
+      width: 39%;
+      margin-top: 4px;
+    }
+  }
+
+@media screen
+  and (min-device-width: 659px) {
+    .content {
+      width: 35%;
+      margin-top: 4px;
+    }
+  }
+
+
+@media screen
+  and (min-device-width: 700px) {
+  .content {
+    width: 30%;
+    margin: 4px;
+  }
+
+  .timeline {
+    display: inline-flex;
+  }
+}
